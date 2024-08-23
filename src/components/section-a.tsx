@@ -8,7 +8,7 @@ export const SectionA = () => {
 
   useEffect(() => {
     // Set search param for better url understanding
-    router.replace(`?post-title="hello"`, { scroll: false });
+    router.replace(`?post-title="im-a-good-post"`, { scroll: false });
   }, []);
 
   return <h1>SectionA (post title will be set in here)</h1>;

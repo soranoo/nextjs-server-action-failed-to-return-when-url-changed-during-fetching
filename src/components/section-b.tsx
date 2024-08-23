@@ -21,7 +21,7 @@ export const SectionB = () => {
       {isLoading && <p>loading...</p>}
       <div>
         <strong>Expected:</strong>
-        <code className="bg-slate-700 rounded-sm px-2">{`?t="hello"`}</code> in the URL
+        <code className="bg-slate-700 rounded-sm px-2">{`?post-title="im-a-good-post"`}</code> in the URL
         with any message
       </div>
     </div>
